@@ -24,7 +24,16 @@ DEKSTOP VIEW */
 
 
 /* TENTANG */
+body {
+    font-family: 'Poppins';
+}
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 
 
@@ -56,7 +65,7 @@ DEKSTOP VIEW */
 
 
 
-
+h1	z
 
 /* HEADER */
 
