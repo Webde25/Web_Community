@@ -65,8 +65,31 @@ DEKSTOP VIEW */
 
 
 /* TENTANG */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#tentang {
+  padding: 50px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+#tentang>p {
+
+  color: #000000;
+}
 
 
+#tentang>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 
 
