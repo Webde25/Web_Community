@@ -30,7 +30,22 @@ DEKSTOP VIEW */
 
 
 /* JUMLAH MEMBER */
-
+.container_members {
+background-color: #393e46;
+color: #ffffff;
+font-family: "Poppins", sans-serif;
+border-radius: 5px;
+}
+.content_members {
+display: flex;
+justify-content: center;
+padding: 50px;
+}
+.members {
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+}
 
 
 
