@@ -6,16 +6,18 @@ body {
    box-sizing: border-box;
 }
 /* IMPORT */
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
 
 
 /* VIEW DEVAULT ADALAH
 DEKSTOP VIEW */
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -124,13 +126,11 @@ DEKSTOP VIEW */
 
 
 /* TENTANG */
-
-
+ 
 
 
 
 /* JUMLAH MEMBER*/
-
 
 
 
