@@ -1,14 +1,11 @@
-*,
-html,
-body {
-    margin :0;
-    padding : 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap");
 
 
 /* VIEW DEVAULT ADALAH
@@ -18,8 +15,6 @@ DEKSTOP VIEW */
     margin: 0;
     padding: 0;
 }
-
-
 
 
 /* NAVBAR */
@@ -47,72 +42,68 @@ DEKSTOP VIEW */
 
 
 /* KEGIATAN */
+ul,
+li {
+  list-style-type: none;
+}
+#kegiatan {
+  max-width: 1400px;
+  width: 100%;
+  padding: 70px 0;
+  font-family: "Poppins", sans-serif;
+}
+.kegiatan-container {
+  max-width: 1000px;
+  width: 100%;
+  max-height: 80vh;
+  margin-inline: auto;
+}
+.kegiatan-container .kegiatan-judul {
+  margin-bottom: 30px;
+  font-size: 56px;
+}
+.kegiatan-img {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+.kegiatan-dot-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.kegiatan-dot {
+  display: flex;
+}
+.kegiatan-dot-items {
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.default {
+  color: grey;
+}
+.active-dot {
+  color: grey;
+}
+.inactive-dot {
+  color: black;
+}
+.kegiatan-container .kegiatan-desc {
+  font-size: 24px;
+  margin-block: 20px;
+  text-align: center;
+}
 
 
 
 
 
 /* MEMBERSHIP */
-.membership{
-    background-color : #393e46;
-
-    position : absolute;
-    width : 1728px;
-    height : 1263px;
-    top: 4768px;
-    left : 0;
-    color : #f2f2f2;
-    font-family: 'Poppins', sans-serif;
-}
-
-.intro,
-.join-member {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.membership .intro h1 {
-    font-weight: 700;
-}
-
-.membership .intro p {
-    font-weight: 400;
-}
-
-.membership .intro ol li {
-    color : #f2f2f2;
-}
-
-.btn {
-    background-color: #f2f2f2;
-    border : 1px solid #393e46;
-    color : #f2f2f2;
-    text-decoration: none;
-    padding : 4px;
-    margin: 4px;
-   
-}
-
-.btn a {
-    color : black;
-    text-decoration: none;
-}
-
-
-
 
 /* FOOTER */
 
-
-
-
-
-
-
 /* PHONE VIEW MIN-WIDTH= 320PX */
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 767px) {
 /* NAVBAR */
 
 
@@ -141,41 +132,20 @@ DEKSTOP VIEW */
 
 
 
-/* FOOTER */
-
-
-
-
-
-
-}
-
+/* FOOTER *
 
 /* TABLET VIEW */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
+  /* NAVBAR */
 
-/* NAVBAR */
+  /* HEADER */
 
+  /* KOMUNITAS */
 
-/* HEADER */
+  /* ANGGOTA */
 
+  /* PROJECT */
 
-
-/* KOMUNITAS */
-
-
-
-/* ANGGOTA */
-
-
-
-/* PROJECT */
-
-
-
-/* FOOTER */
-
-
-
+  /* FOOTER */
 
 }
