@@ -1,11 +1,13 @@
-/* IMPORT */
-
+/* IMPORT */ 
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bungee+Spice&family=Poppins:wght@100&display=swap');
 
 
 
 
 /* VIEW DEVAULT ADALAH
 DEKSTOP VIEW */
+ 
+
 
 
 
@@ -18,9 +20,85 @@ DEKSTOP VIEW */
 
 
 /* HEADER */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  max-height: 100vh;
+}
+
+.darkfilter {
+  background-color:black;
+  width: 100vw;
+  height: 100vh;
+}
+
+#header{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  opacity: 60%;
+}
+
+.textHeader{
+  color: white;
+  position: relative;
+  bottom: 350px;
+  left: 30px;
+  width: 750px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.iconHeader{
+  display: flex;
+  width: auto;
+  gap: 30px;
+  margin-top: 15px;
+}
 
 
+.h1Header{
+  font-size: 40px;
+  font-weight: bolder;
+}
 
+.pHeader{
+  width: 440px;
+  font-size: 25px;
+}
+
+.aHeader{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btnHeader{
+  width: 100px;
+  height: 25px;
+  border-radius:18px;
+  margin-top:12px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid #00A5E0;
+}
+
+#inswebdev {
+  color: white;
+  font-size: 55px;
+  margin-left: 15px;
+}
+
+#githubwebdev{
+  color: white;
+  font-size: 55px;
+}
 
 
 /* TENTANG */
@@ -100,6 +178,7 @@ DEKSTOP VIEW */
 
 /* HEADER */
 
+  
 
 
 /* KOMUNITAS */
