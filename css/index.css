@@ -1,13 +1,13 @@
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
 /* IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 
@@ -142,7 +142,23 @@ body{
 
 
 /* TENTANG */
+#tentang {
+  padding: 50px;
 
+  font-family: 'Poppins', sans-serif;
+}
+
+#tentang>p {
+
+  color: #000000;
+}
+
+
+#tentang>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 
 
@@ -184,8 +200,7 @@ body{
 
 
 /* TENTANG */
-
-
+  
 
 
 
