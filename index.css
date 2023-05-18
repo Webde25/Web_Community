@@ -1,0 +1,195 @@
+/* IMPORT */ 
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bungee+Spice&family=Poppins:wght@100&display=swap');
+
+
+
+
+/* VIEW DEVAULT ADALAH
+DEKSTOP VIEW */
+ 
+
+
+
+
+
+
+/* NAVBAR */
+
+
+
+
+
+/* HEADER */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.darkfilter {
+  height: 100vh;
+  background-color:black;
+  opacity: 75%;
+}
+
+#header{
+  height: 100vh;
+  background-image: url("assets/bgheader.jpeg");
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.textHeader{
+  position: relative;
+  top: 250px;
+  left: 30px;
+  width: 750px;
+}
+
+.iconHeader{
+  display: flex;
+  width: auto;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+
+.h1Header{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.pHeader{
+  width: 450px;
+  font-size: 25px;
+}
+
+.aHeader{
+  display: block;
+  text-decoration: none;
+}
+.btnHeader{
+  width: 100px;
+  height: 25px;
+  border-radius:18px;
+  margin-top:12px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  border: 2px solid #00A5E0;
+}
+
+#inswebdev {
+  color: white;
+  font-size: 55px;
+  margin-left: 15px;
+}
+
+#githubwebdev{
+  color: white;
+  font-size: 55px;
+}
+
+
+/* TENTANG */
+
+
+
+
+
+/* JUMLAH MEMBER */
+
+
+
+
+
+/* KEGIATAN */
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+/* PHONE VIEW MIN-WIDTH= 320PX */
+@media screen and (max-width: 767px){
+
+/* NAVBAR */
+
+
+
+
+
+/* HEADER */
+
+
+
+
+
+/* TENTANG */
+
+
+
+
+
+/* JUMLAH MEMBER*/
+
+
+
+
+
+/* KEGIATAN */
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+}
+
+
+/* TABLET VIEW */
+@media screen and (max-width: 1024px){
+
+/* NAVBAR */
+
+
+/* HEADER */
+
+  
+
+
+/* KOMUNITAS */
+
+
+
+/* ANGGOTA */
+
+
+
+/* PROJECT */
+
+
+
+/* FOOTER */
+
+
+
+
+}
