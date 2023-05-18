@@ -1,21 +1,22 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 
 /* IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap");
 
 
 /* VIEW DEVAULT ADALAH
 DEKSTOP VIEW */
-
-
 
 
 /* NAVBAR */
@@ -60,18 +61,6 @@ nav ul li:hover, nav .logo {
 }
 
 /* HEADER */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body{
-  max-height: 100vh;
-}
 
 .darkfilter {
   background-color:black;
@@ -165,44 +154,74 @@ body{
 
 /* JUMLAH MEMBER */
 
-.container_members {
-background-color: #393e46;
-color: #ffffff;
-font-family: "Poppins", sans-serif;
-border-radius: 5px;
-}
-.content_members {
-display: flex;
-justify-content: center;
-padding: 50px;
-}
-.members {
-text-align: center;
-margin-left: 50px;
-margin-right: 50px;
-}
 
 
 
 
 /* KEGIATAN */
+ul,
+li {
+  list-style-type: none;
+}
+#kegiatan {
+  max-width: 1400px;
+  width: 100%;
+  padding: 70px 0;
+  font-family: "Poppins", sans-serif;
+}
+.kegiatan-container {
+  max-width: 1000px;
+  width: 100%;
+  max-height: 80vh;
+  margin-inline: auto;
+}
+.kegiatan-container .kegiatan-judul {
+  margin-bottom: 30px;
+  font-size: 56px;
+}
+.kegiatan-img {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+.kegiatan-dot-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.kegiatan-dot {
+  display: flex;
+}
+.kegiatan-dot-items {
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.default {
+  color: grey;
+}
+.active-dot {
+  color: grey;
+}
+.inactive-dot {
+  color: black;
+}
+.kegiatan-container .kegiatan-desc {
+  font-size: 24px;
+  margin-block: 20px;
+  text-align: center;
+}
 
 
 /* MEMBERSHIP */
 
 
 
+/* MEMBERSHIP */
+
 /* FOOTER */
 
-
-
-
-
-
-
 /* PHONE VIEW MIN-WIDTH= 320PX */
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 767px) {
 /* NAVBAR */
 
 
@@ -216,7 +235,7 @@ margin-right: 50px;
 
 
 /* TENTANG */
-  
+
 
 
 
@@ -232,15 +251,7 @@ margin-right: 50px;
 /* MEMBERSHIP */
 
 
-/* FOOTER */
-
-
-
-
-
-
-}
-
+/* FOOTER *
 
 /* TABLET VIEW */
 @media screen and (max-width: 1024px){
@@ -267,8 +278,6 @@ margin-right: 50px;
 /* MEMBERSHIP */
 
 /* FOOTER */
-
-
 
 
 }
