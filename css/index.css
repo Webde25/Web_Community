@@ -4,7 +4,9 @@
     padding: 0;
 }
 
+
 /* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
@@ -16,17 +18,127 @@ DEKSTOP VIEW */
 
 
 
-
 /* NAVBAR */
-
-
-
-
+nav {
+    display: flex;
+    background-color: transparent;
+    /* ubah bg nya jika mau kelihatan */
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+nav ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    /* gap: 10px; */
+    list-style: none;
+}
+nav .logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li button {
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    padding: 4px 12px ;
+    border-style: none;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+}
+nav ul li:hover, nav .logo {
+    opacity: 80%;
+    cursor: pointer;
+}
 
 /* HEADER */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  max-height: 100vh;
+}
+
+.darkfilter {
+  background-color:black;
+  width: 100vw;
+  height: 100vh;
+}
+
+#header{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  opacity: 60%;
+}
+
+.textHeader{
+  color: white;
+  position: relative;
+  bottom: 350px;
+  left: 30px;
+  width: 750px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.iconHeader{
+  display: flex;
+  width: auto;
+  gap: 30px;
+  margin-top: 15px;
+}
 
 
+.h1Header{
+  font-size: 40px;
+  font-weight: bolder;
+}
 
+.pHeader{
+  width: 440px;
+  font-size: 25px;
+}
+
+.aHeader{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btnHeader{
+  width: 100px;
+  height: 25px;
+  border-radius:18px;
+  margin-top:12px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid #00A5E0;
+}
+
+#inswebdev {
+  color: white;
+  font-size: 55px;
+  margin-left: 15px;
+}
+
+#githubwebdev{
+  color: white;
+  font-size: 55px;
+}
 
 
 /* TENTANG */
@@ -61,6 +173,7 @@ DEKSTOP VIEW */
 
 
 /* MEMBERSHIP */
+
 
 
 /* FOOTER */
@@ -99,6 +212,7 @@ DEKSTOP VIEW */
 
 /* KEGIATAN */
 
+  
 
 /* MEMBERSHIP */
 
@@ -121,9 +235,11 @@ DEKSTOP VIEW */
 
 /* HEADER */
 
+  
 
 
 /* TENTANG */
+
 
 
 
