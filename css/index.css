@@ -22,10 +22,6 @@ DEKSTOP VIEW */
 
 
 /* HEADER */
-body{
-  max-height: 100vh;
-}
-
 .darkfilter {
   background-color:black;
   width: 100vw;
