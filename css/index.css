@@ -22,11 +22,6 @@ DEKSTOP VIEW */
 
 
 /* HEADER */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body{
   max-height: 100vh;
 }
