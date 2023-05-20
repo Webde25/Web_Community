@@ -1,9 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
 /* IMPORT */
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap");
 /* VIEW DEVAULT ADALAH
 DEKSTOP VIEW */
 
@@ -12,39 +18,224 @@ DEKSTOP VIEW */
 
 
 /* NAVBAR */
-
-
-
-
-
+nav {
+  display: flex;
+  background-color: transparent;
+  /* ubah bg nya jika mau kelihatan */
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+nav ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  /* gap: 10px; */
+  list-style: none;
+}
+nav .logo img {
+  width: 150px;
+  margin-left: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li button {
+  background-color: aqua;
+  color: black;
+  border-radius: 20px;
+  padding: 4px 12px ;
+  border-style: none;
+  font-size: 0.8em;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 20px;
+}
+nav ul li:hover, nav .logo {
+  opacity: 80%;
+  cursor: pointer;
+}
 /* HEADER */
-
-
-
-
-
+.darkfilter {
+  background-color:black;
+  width: 100vw;
+  height: 100vh;
+}
+#header{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  opacity: 60%;
+}
+.textHeader{
+  color: white;
+  position: relative;
+  bottom: 350px;
+  left: 30px;
+  width: 750px;
+  font-family: 'Poppins', sans-serif;
+}
+.iconHeader{
+  display: flex;
+  width: auto;
+  gap: 30px;
+  margin-top: 15px;
+}
+.h1Header{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.pHeader{
+  width: 440px;
+  font-size: 25px;
+}
+.aHeader{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.btnHeader{
+  width: 100px;
+  height: 25px;
+  border-radius:18px;
+  margin-top:12px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid #00A5E0;
+}
+#inswebdev {
+  color: white;
+  font-size: 55px;
+  margin-left: 15px;
+}
+#githubwebdev{
+  color: white;
+  font-size: 55px;
+}
 /* TENTANG */
+#tentang {
+  padding: 50px;
 
+  font-family: 'Poppins', sans-serif;
+}
+#tentang>p {
 
-
-
-
+  color: #000000;
+}
+#tentang>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 /* JUMLAH MEMBER */
-
-
-
-
-
+.container_members {
+  background-color: #393e46;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  }
+  .content_members {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  }
+  .members {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
 /* KEGIATAN */
-
-
-
-
+ul,
+li {
+  list-style-type: none;
+}
+#kegiatan {
+  max-width: 1400px;
+  width: 100%;
+  padding: 70px 0;
+  font-family: "Poppins", sans-serif;
+}
+.kegiatan-container {
+  max-width: 1000px;
+  width: 100%;
+  max-height: 80vh;
+  margin-inline: auto;
+}
+.kegiatan-container .kegiatan-judul {
+  margin-bottom: 30px;
+  font-size: 56px;
+}
+.kegiatan-img {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+.kegiatan-dot-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.kegiatan-dot {
+  display: flex;
+}
+.kegiatan-dot-items {
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.default {
+  color: grey;
+}
+.active-dot {
+  color: grey;
+}
+.inactive-dot {
+  color: black;
+}
+.kegiatan-container .kegiatan-desc {
+  font-size: 24px;
+  margin-block: 20px;
+  text-align: center;
+}
 /* MEMBERSHIP */
-
-
-
-
+.membership{
+  background-color : #393e46;
+  position : absolute;
+  width : 1728px;
+  height : 1263px;
+  top: 4768px;
+  left : 0;
+  color : #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+}
+.intro,
+.join-member {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.membership .intro h1 {
+  font-weight: 700;
+}
+.membership .intro p {
+  font-weight: 400;
+}
+.membership .intro ol li {
+  color : #f2f2f2;
+}
+.btn {
+  background-color: #f2f2f2;
+  border : 1px solid #393e46;
+  color : #f2f2f2;
+  text-decoration: none;
+  padding : 4px;
+  margin: 4px;
+}
+.btn a {
+  color : black;
+  text-decoration: none;
+}
 /* FOOTER */
 
 
