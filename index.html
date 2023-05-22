@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>WEBDEV COMMUNITY</title>
   <link rel="stylesheet" href="css/index.css">
   <script src="/js/script.js" defer></script>
   <link
@@ -12,11 +12,16 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
   integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
   crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
+  referrerpolicy="no-referrer"/>
 </head>
 <body>
+
+
+
   <main>
+
+
+
     <!-- NAVBAR -->
     <nav>
       <div class="logo">
@@ -24,74 +29,90 @@
           <img src="assets/trns.png" alt="logo">
         </a>
       </div>
+      <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fas fa-align-right" id="menu"></i>
+        <i class="fas fa-x" id="close"></i>
+      </label>
       <ul>
-        <li><a href="">Tentang</a></li>
-        <li><a href="">Kegiatan</a></li>
-        <li><a href="">Membership</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kegiatan">Kegiatan</a></li>
+        <li><a href="#membership">Membership</a></li>
         <li><button type="button">Join</button></li>
       </ul>
     </nav>
+
+
+
     <!-- HEADER -->
-    <div class="darkfilter">
-      <img src="assets/bgheader.jpeg" id="header" />
-       <div class="textHeader">
-         <h1 class="h1Header">WEB DEV COMMUNITY</h1>
-         <p class="pHeader">Adalah sebuah komunitas atau forum yang di kembangkan oleh suatu tim yang bernama ANFA TECH</p>
-         <div class="iconHeader">
-           <a href="#" class="aHeader">
-             <p class="btnHeader">About</p>
-           </a>
-           <a href="https://instagram.com/webdev25_?igshid=NTc4MTIwNjQ2YQ==">
-             <i id="inswebdev" class="fa-brands fa-instagram"></i>
-           </a>
-           <a href="https://github.com/Webde25/Web_Community">
-             <i id="githubwebdev" class="fa-brands fa-github"></i>
-           </a>
-         </div>
-       </div>
+    <header>
+      <div class="darkfilter">
+     </div>
+     <div class="textHeader">
+      <h1 class="h1Header">WEB DEV COMMUNITY</h1>
+      <p class="pHeader">Adalah sebuah komunitas atau forum yang di kembangkan oleh suatu tim yang bernama ANFA TECH</p>
+      <div class="iconHeader">
+         <a href="#tentang"><button class="button">Tentang</button></a>
+        <a href="https://instagram.com/webdev25_?igshid=NTc4MTIwNjQ2YQ==">
+          <i id="inswebdev" class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://github.com/Webde25/Web_Community">
+          <i id="githubwebdev" class="fa-brands fa-github"></i>
+        </a>
+      </div>
     </div>
+    </header>
+
+    <div class="transparancy"></div>
+
     <!-- TENTANG -->
-    <div id="tentang">
-      <h2>TENTANG</h2>
+    <section id="tentang">
+      <h1>TENTANG</h1>
       <p>Web Dev adalah sebuah komunitas edukasi atau forum diskusi atau sharing seputar teknologi atau coding terutama web development. Web Dev memiliki impian yang akan terus ditingkatkan yaitu mejadi forum atau komunitas yang produktif dan menjadi forum yang terbaik di Indonesia.</p>
       <br>
-      <h4>VISI</h4>
+      <h2>VISI</h2>
       <p>Menjadi forum terbaik dan ternyaman di seluruh Indonesia, Menjadi  forum atau komunitas yang Produktif</p>
       <br>
-      <h4>MISI</h4>
+      <h2>MISI</h2>
       <ul>
         <li>-Mengerjakan Project Bersama (Collaboration)</li>
         <li>-Membangun Team Branding</li>
         <li>-Membangun Personal brandingr</li>
         <li>-Aktif Mengadakan Event(Coding, Pengalaman & Kolaborasi)</li>
       </ul>
-    </div>
+    </section>
+
+
+
     <!-- JUMLAH MEMBER -->
-    <div class="container_members">
+    <section class="container_members">
       <div class="content_members">
        <div class="members">
         <h1>MEMBER</h1>
-        <h1>29</h1>
+        <h3>29</h3>
         </div>
        <div class="members">
         <h1>MENTOR</h1>
-        <h1>5</h1>
+        <h3>5</h3>
        </div>
        <div class="members">
         <h1>FRONT END</h1>
-        <h1>18</h1>
+        <h3>18</h3>
        </div>
        <div class="members">
         <h1>BACK END</h1>
-        <h1>5</h1>
+        <h3>5</h3>
        </div>
       </div>
-    </div>
+    </section>
+
+
+
     <!-- KEGIATAN -->
-    <div id="kegiatan">
+    <section id="kegiatan">
       <div class="kegiatan-container">
         <h1 class="kegiatan-judul">KEGIATAN</h1>
-        <div>
+        <div class="container-image">
           <img
             class="kegiatan-img"
             src="/assets/image/kegiatan-1.jpg"
@@ -114,38 +135,48 @@
             </ul>
           </div>
         </div>
-        <p class="kegiatan-desc">
-          Kegiatan hanya bisa di ikuti oleh member komunitas!
-        </p>
+        <div class="kegiatan-desc">
+          <p>
+            Kegiatan hanya bisa di ikuti oleh member komunitas!
+          </p>
+        </div>
       </div>
-    </div>
-    <!-- MEMBERSHIP -->	
-    <div class="membership">
+    </section>
+
+
+
+    <!-- MEMBERSHIP	-->
+    <section id="membership" class="membership">
       <div class="intro">
        <h1>MEMBERSHIP</h1>
       </div>
       <div class="isi">
-        <p>untuk menjadi membership komunitas ini tidak banyak ketentuan<br>
-          atau syarat khusus untuk member komunitas kami<br>
+        <p>untuk menjadi membership komunitas ini tidak banyak ketentuan
+          atau syarat khusus untuk member komunitas kami
            diantaranya yaitu: </p>
            <div class="list">
-            <p>1.Dewasa (bukan dari segi umur tetapi dari <br> segi mindset atau pemikiran untuk terus bertumbuh) </p>
-            <p>2. Mampu menggunakan software discord</p>
-            <p>3. Mampu menggunakan github tingkat dasar</p>
-            <br>
-            <p>Catatan: Di komunitas ini akan di ajarkan bagaimana cara </p> memanage project dan menggunakan skill dengan baik dan  benar!!</p>
+            <ul>
+              <li>Dewasa (bukan dari segi umur tetapi dari segi mindset atau pemikiran untuk terus bertumbuh)</li>
+              <li>Mampu menggunakan software discord</li>
+              <li>Mampu menggunakan github tingkat dasar</li>
+            </ul>
            </div>
-            <br>
+           <div class="catatan">
+            <p>Catatan: Di komunitas ini akan di ajarkan bagaimana cara memanage project dan menggunakan skill dengan baik dan  benar!!</p>
+           </div>
           <div class="join-member">
             <h3>JIKA INGIN JOIN SILAHKAN GABUNG DENGAN </h3>
-            <button type="submit" class="btn">
-              <a href="#">KLIK DISINI </a>
-            </button>
+            <a href="#">KLIK DISINI </a>
              </div>
        </div>
-      </div>
-    <!-- FOOTER -->
+    </section>
 
+
+    <!-- FOOTER -->
+      <footer>
+        <h1>WEB DEV COMMUNITY</h1>
+        <p>Is Developed By Member</p>
+      </footer>
         
 
 
