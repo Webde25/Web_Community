@@ -321,7 +321,7 @@ nav #check{
 /* NAVBAR */
 nav label #menu,
 nav label #close{
-  position: absolute;
+  position: fixed;
   left: 3rem;
 }
 nav label #menu {
@@ -334,7 +334,7 @@ nav ul {
   height: 43vh;
   top: 110px;
   left: -600px;
-  background-color: #393e46;
+  background-color: white;
   transition: 1s;
 }
 nav ul li {
@@ -343,6 +343,9 @@ nav ul li {
   margin: 0px 0px 0px 210px;
   line-height: 50px;
   padding:10px 20px;
+}
+nav ul li a{
+  color: black;
 }
 nav ul li button{
   padding: 5px 30px;
